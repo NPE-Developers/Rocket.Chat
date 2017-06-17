@@ -11,5 +11,7 @@ fi
 
 git clone -b development $MONOLITH_URL ./packages/monolith
 git clone -b development $BRINGIT_URL ./packages/bringit
+git clone https://github.com/NPE-Developers/Monolith-rc.git ./packages/monolith-rc
 meteor add monolith
+meteor add monolith-rc
 meteor add bringit
